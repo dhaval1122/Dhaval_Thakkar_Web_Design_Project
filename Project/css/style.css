@@ -1,0 +1,545 @@
+@import url('font-face.css');
+
+*
+{
+    font-family: Lato-Regular;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #D7C49EFF; 
+}
+#navbar
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #D7C49EFF;
+}
+.logo
+{
+    width: 18%;
+    height: auto;
+    margin: 0px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.logo a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: #343148FF;
+}
+.logo span
+{
+    font-family: Lato-Bold;
+}
+.nav
+{
+    width: 45%;
+    height: auto;
+}
+.nav ul li
+{
+    display: inline-block;
+    padding: 0px 8px;
+}
+.nav a
+{
+    font-family: Lato-Bold;
+    list-style-type: none;
+    text-decoration: none;
+    color: #343148FF;
+    font-size: 15px;
+}
+.nav a:hover
+{
+    background-color: #343148FF;
+    border: 1px outset black;
+    color: #D7C49EFF;
+    padding: 7px;
+}
+.search-bar
+{
+    width: 25%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 1%;
+    position: relative;
+}
+.search-bar input
+{
+    width: 85%;
+    height: auto;
+    border-radius: 30px;
+    padding: 5px;
+}
+.search-bar a
+{
+    color: black;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+
+#slider
+{
+    width: 100%;
+    height: 550px;
+    background: url('../images/slider.jpg') no-repeat;
+    background-size: cover;
+}
+.slider-text
+{
+    width: 50%;
+    height: auto;
+    margin-left: 2%;
+    padding: 1px;
+}
+.slider-text h1
+{
+    font-size: 64px;
+    font-family: Lato-Bold;  
+}
+.slider-text p
+{
+    font-size: 14px;
+    text-align: justify;
+}
+#btn-1
+{
+    background-color: #343148FF; 
+    color: white;
+    border: none;
+    margin-top: 4%;
+    padding: 10px 30px;
+    font-family: Lato-Bold;
+}
+#btn-2
+{
+    background-color: black;
+    border: none;
+    margin-top: 4%;
+    padding: 10px 30px;
+    font-family: Lato-Bold;
+    color: white;
+    margin-left: 5%;
+}
+#btn-1:hover
+{
+    background-color: saddlebrown;
+    -webkit-transform: scale(1.2);
+   transform: scale(1.2); 
+   transition: 0.5s ease all;
+    
+}
+#btn-2:hover
+{
+   background-color: darkgreen;
+  -webkit-transform: scale(1.2); 
+   transform: scale(1.2); 
+   transition: 0.5s ease all;
+}
+.slider-arrow
+{
+    margin-left: 2%;
+    font-size: 35px;
+    margin-top: 2%;
+}
+.slider-arrow span
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 1%;
+    border-radius: 50%;
+}
+#arrow
+{
+    margin-top: 18%;
+}
+#arrow2
+{
+    margin-left: 5%;
+    background-color: #343148FF;
+}
+
+
+#content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.head
+{
+    text-align: center;
+    font-family: Lato-Bold;
+}
+.service1
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+    /* background-color: #EA738D; */
+}
+.service1 img
+{
+    width: 60%;
+    height: 180px;
+    margin-left: 20%;
+}
+.service1 h3
+{
+    text-align: center;
+}
+.service1 p
+{
+    text-align: justify;
+}
+.service2
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-left: 2%;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #343148FF;
+}
+.service2 img
+{
+    width: 60%;
+    height: 180px;
+    margin-left: 20%;
+}
+.service2 h3
+{
+    text-align: center;
+    color: white;
+}
+.service2 p
+{
+    text-align: justify;
+    color: white;
+}
+.service3
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-left: 2%;
+    border: 2px solid black;
+    padding: 5px;
+}
+.service3 img
+{
+    width: 60%;
+    height: 180px;
+    margin-left: 20%;
+}
+.service3 h3
+{
+    text-align: center;
+}
+.service3 p
+{
+    text-align: justify;
+}
+.btn1
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.btn1 button
+{
+    width: 10%;
+    height: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    border: none;
+}
+.btn1 button:hover
+{
+    background-color: saddlebrown;
+    -webkit-transform: scale(1.2);
+   transform: scale(1.2); 
+   transition: 0.5s ease all;
+}
+#about-us
+{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.leftsidebar
+{
+    width: 100%;
+    height: 320px;
+    background-color: #343148FF;
+    margin-top: 3%;
+}
+.leftsidebar h1
+{
+    font-size: 34px;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+.leftsidebar p
+{
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    color: white;
+}
+.leftsidebar button
+{
+    width: 20%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.leftsidebar button:hover
+{
+    background-color: saddlebrown;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+    transition: 0.5s ease all;
+}
+.rightsidebar
+{
+    width: 100%;
+    height: 320px;
+    background: url('../images/about-us.jpg') no-repeat;
+    background-size: 100% 320px;
+    margin-top: 3%;
+    position: relative;
+}
+.rightsidebar::before
+{
+    width: 100%;
+    height: 320px;
+    content: '';
+    background-color: rgba(52, 49, 72, 0.5);
+    position: absolute;
+    display: block;
+}
+
+.client-feedback
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+}
+.client-feedback-text
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    line-height: 01em;
+}
+.client-feedback-text q 
+{
+    text-align: center;
+    font-size: 68px;
+    color: #343148FF !important;
+    letter-spacing: 2px;
+}
+
+.client-feedback-text p 
+{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+.client-feedback-text img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.client-feedback h1
+{
+    text-align: center;
+    margin-top: 4%;
+    font-family: Lato-Bold;
+}
+.call-back
+{
+    width: 100%;
+    height: 500px;
+    background: url('../images/about-us.jpg') no-repeat;
+    background-size: 100% 500px;
+    margin-top: 3%;
+    position: relative;
+}
+.call-back::before
+{
+    width: 100%;
+    height: 500px;
+    content: '';
+    background-color: rgba(52, 49, 72, 0.5);
+    position: absolute;
+    display: block;
+}
+.call-back h1
+{
+    font-family: Lato-Bold;
+    position: absolute;
+    color: white;
+    margin-left: 40%;
+}
+.contact-form
+{
+    width: 50%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 6%;
+    position: absolute;
+}
+.contact-form input
+{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.contact-form textarea
+{
+    width: 60%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.contact-form button
+{
+    width: 25%;
+    height: auto;
+    padding: 12px 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+iframe
+{
+    margin-top: 6%;
+    margin-left: 50%;
+    position: absolute;
+}
+#beauty-footer
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+}
+.description
+{
+    width: 35%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.description p
+{
+    text-align: justify;
+    color: #343148FF;
+}
+.pages
+{
+    width: 45%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.pages h2
+{
+    margin-left: 10%;
+}
+.pages ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 0px;
+}
+.pages a
+{
+    font-family: Lato-Bold;
+    list-style-type: none;
+    text-decoration: none;
+    color: #343148FF;
+    font-size: 15px;
+}
+.follow-us
+{
+    width: 50%;
+    height: auto;
+    margin-top: 4%;
+}
+.follow-us input
+{
+    width: 58%;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.follow-us button
+{
+    width: 62%;
+    padding: 5px;
+    margin-bottom: 6%;
+    background-color: #343148FF;
+    color: white;
+    border: none;
+}
+.follow-us a
+{
+    width: 100%;
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px 12px;
+    color: #343148FF;
+}
+.follow-us a:hover
+{
+    background-color: #343148FF;
+    color: #D7C49EFF;
+    border-radius: 30%;
+}
+.bottom-footer
+{
+    width: 100%;
+    height: 45px;
+    background-color: #343148FF;
+}
+.bottom-footer p
+{
+    font-family: Lato-Bold;
+    text-align: center;
+    padding-top: 12px;
+    color: #D7C49EFF;
+}
